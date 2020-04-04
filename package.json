@@ -1,0 +1,19 @@
+{
+  "name": "curso",
+  "version": "1.0.0",
+  "description": "curso bootstrap4",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertosanchezcuerva/bootstrap4.git"
+  },
+  "author": "AS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albertosanchezcuerva/bootstrap4/issues"
+  },
+  "homepage": "https://github.com/albertosanchezcuerva/bootstrap4#readme"
+}
