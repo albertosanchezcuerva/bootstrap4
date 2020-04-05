@@ -24,8 +24,8 @@
   		<div class="collapse navbar-collapse" id="navbarSupportedContent">
   			<ul class="navbar-nav mr-auto">
   				<li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
-  				<li class="nav-item active"><a class="nav-link" href="./about.html">About us</a></li>
-  				<li class="nav-item"><a class="nav-link" href="./ask.html">El juego de las preguntas</a></li>
+  				<li class="nav-item"><a class="nav-link" href="./about.html">About us</a></li>
+  				<li class="nav-item active"><a class="nav-link" href="./ask.html">El juego de las preguntas</a></li>
   		</div>
    	</nav>
 
@@ -42,14 +42,54 @@
 		<nav aria-label="breadcrumb">
 			<ol class="breadcrumb">
 				<li class="breadcrumb-item"> <a href="./index.html">HOME</a></li>
-				<li class="breadcrumb-item active" aria-current="page">About us</li>
+				<li class="breadcrumb-item active" aria-current="page">El juego de las preguntas</li>
 			</ol>
 		</nav>
 
-		<span>
-		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-		</span>
-		<hr>
+			<h1> Escribe la pregunta que quieras mandar</h1>
+			<form>
+				<div class="form-row">
+					<div class="form-group col-sm-6">
+						<label for="nombre">Nombre</label>
+						<input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+					</div>
+					
+					<div class="form-group col-sm-6">
+						<label for="email">Email del destinatario</label>
+						<input type="email" class="form-control" id="email" placeholder="Ingrese su email">	
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="form-group col-sm-9">
+						<label for="Titulo">Titulo de la pregunta</label>
+						<input type="text" class="form-control" id="Titulo" placeholder="¿Cúal es el titulo de la pregunta?">
+					</div>
+					<div class="form-group col-sm-3">
+						<label for="pregunta">Tipo de pregunta</label>
+						<select id="pregunta" class="form-control">
+							<option selected>Conocerse</option>
+							<option>Sueños y Fantasias</option>
+							<option>Personales</option>
+							<option>Erotica y Sexuales</option>
+						</select>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="Pregunta">Pregunta</label>
+					<textarea id="pregunta" class="form-control" rows="10"></textarea>
+				</div>
+				<div class="form-group">
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" id="gridCheck">
+						<label class="form-check-label" for="gridCheck">Me juego la respuesta</label>
+					</div>		
+				</div>
+				<div><button type="submit" class="btn btn-primary btn-juego">Enviar</button></div>
+			</form>
+
+
+
+	<hr>
 	</div>
 
 	<footer>
